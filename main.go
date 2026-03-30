@@ -19,4 +19,7 @@ func main() {
 
 	fmt.Println(begginer.MiddleNode(n1))
 	fmt.Println(begginer.CanConstruct("aa", "ab"))
+
+	fmt.Println(begginer.FindMaxConsecutiveOnes([]int{1, 0, 1, 1, 0, 1}))
+	fmt.Println(begginer.FindNumbers([]int{12, 345, 2, 6, 7896}))
 }
